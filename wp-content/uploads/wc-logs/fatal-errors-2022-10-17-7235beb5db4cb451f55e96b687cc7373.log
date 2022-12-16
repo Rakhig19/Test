@@ -1,0 +1,8 @@
+2022-10-17T05:28:24+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to Automattic\WooCommerce\Internal\DownloadPermissionsAdjuster::get_download_files_and_permissions() must be an instance of WC_Product, bool given, called in C:\xampp\htdocs\bootstrap\wp-content\plugins\woocommerce\src\Internal\DownloadPermissionsAdjuster.php on line 103 and defined in C:\xampp\htdocs\bootstrap\wp-content\plugins\woocommerce\src\Internal\DownloadPermissionsAdjuster.php:138
+Stack trace:
+#0 C:\xampp\htdocs\bootstrap\wp-content\plugins\woocommerce\src\Internal\DownloadPermissionsAdjuster.php(103): Automattic\WooCommerce\Internal\DownloadPermissionsAdjuster->get_download_files_and_permissions(false)
+#1 C:\xampp\htdocs\bootstrap\wp-includes\class-wp-hook.php(307): Automattic\WooCommerce\Internal\DownloadPermissionsAdjuster->adjust_download_permissions(157)
+#2 C:\xampp\htdocs\bootstrap\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\bootstrap\wp-includes\plugin.php(524): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\boots in C:\xampp\htdocs\bootstrap\wp-content\plugins\woocommerce\src\Internal\DownloadPermissionsAdjuster.php on line 138
+

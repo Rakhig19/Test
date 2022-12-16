@@ -1,0 +1,2 @@
+2022-10-19T05:11:46+00:00 CRITICAL Object of class WP_User could not be converted to string in C:\xampp\htdocs\bootstrap\wp-content\plugins\my-plugin\public\profile.php on line 32
+
